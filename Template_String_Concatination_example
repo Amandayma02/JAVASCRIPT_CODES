@@ -1,0 +1,4 @@
+var fname ='Aman';
+var lname ='Dayma';
+
+console.log(` Name ->   ${fname}  ${lname}`);
