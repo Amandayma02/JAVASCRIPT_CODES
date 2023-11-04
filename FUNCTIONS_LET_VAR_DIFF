@@ -1,0 +1,16 @@
+function biodata()
+{
+    let FirtName= 'Aman';
+    console.log(FirtName);
+    
+
+    if(true)
+    {
+        var LastName = 'Dayma';
+    }
+    console.log(LastName);
+
+
+}
+
+biodata();
