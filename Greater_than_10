@@ -1,0 +1,17 @@
+const newarr = [2,3,4,6,8];
+
+const NewOne = newarr.map((Curele , index , arr)=>
+{
+     let num = 2;
+     if(num*Curele > 10)
+     {
+        console.log("The multiplication of 2 elements which are greater than 10 are =>" + Curele );
+        console.log("And multiplication is => " + num * Curele);
+
+     }
+
+
+     
+    
+
+})
