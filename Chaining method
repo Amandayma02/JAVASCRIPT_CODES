@@ -1,0 +1,11 @@
+let arr = [2, 3 , 4 , 6 , 8];
+
+let arr2 = arr.map((Curele) =>
+{
+
+    return Curele * 2;
+}).filter((Curele)=>
+{
+    return Curele>10;
+})
+console.log(arr2);
