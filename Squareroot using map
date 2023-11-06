@@ -1,0 +1,13 @@
+//Defining a new array
+const ele = [4,9,16,25,36,49,64,81,100];
+
+//using map function passing current element
+const newSqr = ele.map((curelement)=>
+{
+    //using math.sqrt returning the square root of elements of ele array
+    return Math.sqrt(curelement);
+
+})
+
+//printing the square root
+console.log(newSqr)
